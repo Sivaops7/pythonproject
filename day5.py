@@ -6,7 +6,7 @@ for fruit in fruits:
     print(fruit +"pie")
 print(fruits)
 #average heights
-height = input("input a list of students heights : ").split()
+height = input("input a list of students heights : ").split(",")
 for n in range(0,len(height)):
     height[n] = int(str(height[n]))
 total1 = 0
